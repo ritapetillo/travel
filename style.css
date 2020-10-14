@@ -9,13 +9,26 @@
   font-family: var(--lato);
 }
 
+.hero {
+  background-image: url("./img/jeremie-cremer-M5xVtIv1Lo8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  min-height: 600px;
+  margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-.hero{
-    background-image: url("./img/jeremie-cremer-M5xVtIv1Lo8-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:80vh;
-    min-height: 600px;
-    margin-top:-60px;
-    
+.hero h2 {
+  margin-top: -15%;
+  margin-bottom: -3px;
+  color: #1818189d;
+  font-size: 25px;
+}
+.hero h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
 }
